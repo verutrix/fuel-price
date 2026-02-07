@@ -97,4 +97,7 @@ with tab3:
     ).interactive()
     st.altair_chart(chart_selected, use_container_width=True)
 
-st.code(language="python")
+code_string = """
+print("Hello world")
+"""
+st.code(code_string, language="python")
