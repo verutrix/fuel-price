@@ -66,7 +66,7 @@ st.title("Jak drahý je benzín letos?")
 st.subheader("Pojďme se podívat na cenu benzínu, nafty i alternativních paliv v průběhu let. V detailu i v pouhém přehledu.")
 
 
-st.error("Myslíte, že porozumění datům vám pomůže srovnat se se stále rostoucí cenou? Chyba! Na to vás nepřipraví nic.")
+st.error("Myslíte, že porozumění dat vám pomůže srovnat se se stále rostoucí cenou? Chyba! Na to vás nepřipraví nic.")
 
 st.divider()
 
@@ -75,10 +75,10 @@ if oblibene_palivo:
      st.write(f"Wow! {oblibene_palivo} mám taky nejradši!")
 else:
      st.write("Tak nám řekni, jaký palivo máš rád!")
-<<<<<<< HEAD
-=======
-
->>>>>>> 43e7505925a0f5c12cdabf6f41c2c6f337329935
+"""
+oblibena_paliva = []
+oblibena_paliva.append(oblibene_palivo)
+"""
 
 st.divider()
 tab1, tab2, tab3 = st.tabs(["Grafy", "Data", "Vybraná data"])
