@@ -104,5 +104,5 @@ print("Hello world")
 """
 
 
-st.write("Tohle je na ukázku toho, že jsem jde vkládat i kód.")
+st.write("Tohle je na ukázku toho, že sem jde vkládat i kód.")
 st.code(code_string, language="python")
