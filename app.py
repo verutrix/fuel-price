@@ -97,7 +97,12 @@ with tab3:
     ).interactive()
     st.altair_chart(chart_selected, use_container_width=True)
 
+st.divider()
+
 code_string = """
 print("Hello world")
 """
+
+
+st.write("Tohle je na ukázku toho, že jsem jde vkládat i kód.")
 st.code(code_string, language="python")
