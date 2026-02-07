@@ -75,6 +75,10 @@ if oblibene_palivo:
      st.write(f"Wow! {oblibene_palivo} mám taky nejradši!")
 else:
      st.write("Tak nám řekni, jaký palivo máš rád!")
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43e7505925a0f5c12cdabf6f41c2c6f337329935
 
 st.divider()
 tab1, tab2, tab3 = st.tabs(["Grafy", "Data", "Vybraná data"])
